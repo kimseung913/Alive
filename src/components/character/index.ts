@@ -1,0 +1,1 @@
+export { GhostCharacter } from './GhostCharacter';
