@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-type CharacterMood = 'happy' | 'satisfied' | 'worried' | 'celebrating';
+type CharacterMood = 'happy' | 'worried' | 'celebrating';
 
 interface GhostCharacterProps {
     mood?: CharacterMood;
@@ -78,18 +78,7 @@ export function GhostCharacter({
                     </>
                 )}
 
-                {mood === 'satisfied' && (
-                    <>
-                        {/* Very closed happy eyes */}
-                        <path d="M33 52 Q40 48 47 52" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-                        <path d="M53 52 Q60 48 67 52" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-                        {/* Big smile */}
-                        <path d="M38 68 Q50 80 62 68" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-                        {/* Blush */}
-                        <circle cx="30" cy="60" r="6" fill="#FFB8B8" opacity="0.7" />
-                        <circle cx="70" cy="60" r="6" fill="#FFB8B8" opacity="0.7" />
-                    </>
-                )}
+
 
                 {mood === 'worried' && (
                     <>
