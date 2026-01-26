@@ -6,10 +6,10 @@
 ================================ */
 
 :root {
-  /* Brand Colors */
-  --alive-green: #51CF66;
-  --alive-green-light: #8CE99A;
-  --alive-green-dark: #40C057;
+  /* Brand Colors - 팥색 (Red Bean) */
+  --alive-red-bean: #8B4557;
+  --alive-red-bean-light: #A85C6F;
+  --alive-red-bean-dark: #7A3A4B;
   --warm-peach: #FFB8B8;
   --sky-blue: #74C0FC;
   --gat-black: #343A40;
@@ -25,7 +25,7 @@
   --divider: #E9ECEF;
 
   /* Semantic Colors */
-  --success: #51CF66;
+  --success: #8B4557;
   --warning: #FFA94D;
   --error: #FF6B6B;
 
@@ -33,7 +33,7 @@
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
-  --shadow-primary: 0 4px 12px rgba(81, 207, 102, 0.3);
+  --shadow-primary: 0 4px 12px rgba(139, 69, 87, 0.3);
 
   /* Animation */
   --ease-out: cubic-bezier(0.0, 0.0, 0.2, 1);
@@ -46,9 +46,9 @@
 /* Tailwind Theme Integration */
 @theme inline {
   /* Colors */
-  --color-alive: var(--alive-green);
-  --color-alive-light: var(--alive-green-light);
-  --color-alive-dark: var(--alive-green-dark);
+  --color-alive: var(--alive-red-bean);
+  --color-alive-light: var(--alive-red-bean-light);
+  --color-alive-dark: var(--alive-red-bean-dark);
   --color-peach: var(--warm-peach);
   --color-sky: var(--sky-blue);
   --color-gat: var(--gat-black);
@@ -108,15 +108,15 @@ body {
 /* Custom Animations */
 @keyframes pulse-alive {
   0% {
-    box-shadow: 0 0 0 0 rgba(81, 207, 102, 0.4);
+    box-shadow: 0 0 0 0 rgba(139, 69, 87, 0.4);
   }
 
   70% {
-    box-shadow: 0 0 0 10px rgba(81, 207, 102, 0);
+    box-shadow: 0 0 0 10px rgba(139, 69, 87, 0);
   }
 
   100% {
-    box-shadow: 0 0 0 0 rgba(81, 207, 102, 0);
+    box-shadow: 0 0 0 0 rgba(139, 69, 87, 0);
   }
 }
 

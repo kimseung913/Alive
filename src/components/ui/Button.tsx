@@ -17,7 +17,7 @@ const variantStyles: Record<ButtonVariant, string> = {
   primary: `
     bg-alive text-white 
     hover:bg-alive-dark active:bg-alive-dark
-    shadow-[0_4px_12px_rgba(81,207,102,0.3)]
+    shadow-[0_4px_12px_rgba(139,69,87,0.3)]
     disabled:bg-surface-secondary disabled:text-subtle disabled:shadow-none
   `,
   secondary: `

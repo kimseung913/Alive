@@ -36,7 +36,7 @@ export default function OnboardingCompletePage() {
                                 key={i}
                                 className="absolute w-3 h-3 rounded-full animate-bounce"
                                 style={{
-                                    backgroundColor: ['#51CF66', '#FFB8B8', '#74C0FC', '#FFA94D'][i % 4],
+                                    backgroundColor: ['#8B4557', '#FFB8B8', '#74C0FC', '#FFA94D'][i % 4],
                                     left: `${10 + (i * 7)}%`,
                                     top: `${15 + (i % 3) * 10}%`,
                                     animationDelay: `${i * 0.1}s`,

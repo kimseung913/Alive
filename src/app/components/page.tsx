@@ -62,8 +62,8 @@ export default function ComponentsPage() {
                             <p className="text-xs text-muted mt-2">happy</p>
                         </div>
                         <div className="text-center">
-                            <GhostCharacter mood="satisfied" size="md" />
-                            <p className="text-xs text-muted mt-2">satisfied</p>
+                            <GhostCharacter mood="happy" size="md" />
+                            <p className="text-xs text-muted mt-2">happy</p>
                         </div>
                         <div className="text-center">
                             <GhostCharacter mood="worried" size="md" />

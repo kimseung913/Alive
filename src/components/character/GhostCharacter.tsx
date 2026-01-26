@@ -56,11 +56,11 @@ export function GhostCharacter({
                     d="M25 45 C25 30 35 25 50 25 C65 25 75 30 75 45 L75 100 
              C75 100 70 95 65 100 C60 105 55 95 50 100 
              C45 105 40 95 35 100 C30 105 25 95 25 100 Z"
-                    fill="#51CF66"
+                    fill="#8B4557"
                 />
                 <path
                     d="M30 45 C30 35 38 30 50 30 C62 30 70 35 70 45 L70 95"
-                    fill="#8CE99A"
+                    fill="#A85C6F"
                     opacity="0.5"
                 />
 
@@ -68,10 +68,10 @@ export function GhostCharacter({
                 {mood === 'happy' && (
                     <>
                         {/* Closed happy eyes */}
-                        <path d="M35 55 Q40 50 45 55" stroke="#495057" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-                        <path d="M55 55 Q60 50 65 55" stroke="#495057" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                        <path d="M35 55 Q40 50 45 55" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                        <path d="M55 55 Q60 50 65 55" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
                         {/* Smile */}
-                        <path d="M40 70 Q50 78 60 70" stroke="#495057" strokeWidth="2" fill="none" strokeLinecap="round" />
+                        <path d="M40 70 Q50 78 60 70" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
                         {/* Blush */}
                         <circle cx="32" cy="62" r="5" fill="#FFB8B8" opacity="0.6" />
                         <circle cx="68" cy="62" r="5" fill="#FFB8B8" opacity="0.6" />
@@ -81,10 +81,10 @@ export function GhostCharacter({
                 {mood === 'satisfied' && (
                     <>
                         {/* Very closed happy eyes */}
-                        <path d="M33 52 Q40 48 47 52" stroke="#495057" strokeWidth="3" fill="none" strokeLinecap="round" />
-                        <path d="M53 52 Q60 48 67 52" stroke="#495057" strokeWidth="3" fill="none" strokeLinecap="round" />
+                        <path d="M33 52 Q40 48 47 52" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                        <path d="M53 52 Q60 48 67 52" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
                         {/* Big smile */}
-                        <path d="M38 68 Q50 80 62 68" stroke="#495057" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                        <path d="M38 68 Q50 80 62 68" stroke="#ffffffff" strokeWidth="2.5" fill="none" strokeLinecap="round" />
                         {/* Blush */}
                         <circle cx="30" cy="60" r="6" fill="#FFB8B8" opacity="0.7" />
                         <circle cx="70" cy="60" r="6" fill="#FFB8B8" opacity="0.7" />
@@ -94,10 +94,10 @@ export function GhostCharacter({
                 {mood === 'worried' && (
                     <>
                         {/* Worried eyes */}
-                        <circle cx="40" cy="52" r="4" fill="#495057" />
-                        <circle cx="60" cy="52" r="4" fill="#495057" />
+                        <circle cx="40" cy="52" r="4" fill="#ffffffff" />
+                        <circle cx="60" cy="52" r="4" fill="#ffffffff" />
                         {/* Worried mouth */}
-                        <path d="M42 72 Q50 68 58 72" stroke="#495057" strokeWidth="2" fill="none" strokeLinecap="round" />
+                        <path d="M42 72 Q50 68 58 72" stroke="#ffffffff" strokeWidth="2" fill="none" strokeLinecap="round" />
                         {/* Sweat drop */}
                         <path d="M72 45 Q75 50 72 55 Q69 50 72 45" fill="#74C0FC" />
                     </>
@@ -106,10 +106,10 @@ export function GhostCharacter({
                 {mood === 'celebrating' && (
                     <>
                         {/* Star eyes */}
-                        <text x="35" y="58" fontSize="12" fill="#495057">★</text>
-                        <text x="55" y="58" fontSize="12" fill="#495057">★</text>
+                        <text x="35" y="58" fontSize="12" fill="#ffffffff">★</text>
+                        <text x="55" y="58" fontSize="12" fill="#ffffffff">★</text>
                         {/* Open smile */}
-                        <ellipse cx="50" cy="72" rx="8" ry="5" fill="#495057" />
+                        <ellipse cx="50" cy="72" rx="8" ry="5" fill="#ffffffff" />
                         {/* Blush */}
                         <circle cx="30" cy="62" r="5" fill="#FFB8B8" opacity="0.8" />
                         <circle cx="70" cy="62" r="5" fill="#FFB8B8" opacity="0.8" />
